@@ -34,7 +34,7 @@ export const particlesConfig = (app: PIXI.Application) => ({
     blendMode: "normal",
     frequency: 0.0001,
     emitterLifetime: -1,
-    maxParticles: 100,
+    maxParticles: 10,
     pos: {
         x: app.renderer.width / 2,
         y: app.renderer.height / 2

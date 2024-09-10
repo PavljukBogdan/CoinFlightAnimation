@@ -65,7 +65,7 @@ export class CoinAnimation {
 
         this.coinCreationTimeout = window.setTimeout(() => {
             this.stopEmitter();
-        }, 30000);
+        }, 2000);
     }
 
     private stopEmitter(): void {
